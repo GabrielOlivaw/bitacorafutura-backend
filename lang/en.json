@@ -1,0 +1,43 @@
+{
+  "error-unknownendpoint": "Unknown endpoint",
+  "error-unknownresource": "Unknown resource",
+  "error-malformattedid": "Malformatted id",
+  "error-jsonwebtoken-unlogged": "Permission denied. You are not logged in.",
+  "error-jsonwebtoken-session": "There is a problem with your session token. {{message}}",
+  
+  "blogs-error-form-title-required": "A blog title is required.",
+  "blogs-error-form-content-required": "A blog content is required.",
+  "blogs-error-permission-create": "Permission denied. Only authors and administrators can create new blogs.",
+  "blogs-error-author-action-edit": "Permission denied. Only the blog author or an admin can edit selected blog.",
+  "blogs-error-author-action-delete": "Permission denied. Only the blog author or an admin can delete selected blog.",
+  "blogs-error-comment-delete": "Permission denied. Only an admin can delete selected blog comment.",
+
+  "comments-error-form-comment-required": "A comment text content is required.",
+
+  "users-error-list": "Permission denied. Only admins can see the users list.",
+  "users-error-form-username-unique": "The provided username is already in use. Please enter a new one.",
+  "users-error-form-username-required": "An username is required.",
+  "users-error-form-username-minlength": "The username must have a minimum length of {{minlength}} characters.",
+  "users-error-form-name-required": "A name is required.",
+  "users-error-form-password-required": "A password is required.",
+  "users-error-form-password-minlength": "The password must have a minimum length of {{minlength}} characters.",
+  "users-error-form-email-required": "An email is required.",
+  "users-error-form-email-valid": "The provided email doesn't have a valid format.",
+  "users-create-email-subject": "Welcome to Bitácora Futura, {{username}}",
+  "users-create-email-content": "Hi, {{username}}! Welcome to Bitacora Futura, thanks for creating a new account, now you can comment on blogs.",
+  "users-error-edit": "Permission denied. You can only modify your own user.",
+  "users-error-role": "Permission denied. You don't have the required role.",
+  "users-error-edit-role": "Permission denied. You can only modify users from lower roles.",
+  "users-error-delete-superadmin": "Permission denied. You can't delete a superadmin.",
+  "users-error-delete-user": "Permission denied. Only the same user or an admin can delete selected user.",
+
+  "login-error-authentication": "Invalid username or password.",
+  "login-error-email": "There is no registered user with the provided email.",
+  "login-passwordreset-email-subject": "Bitacora Futura password reset",
+  "login-passwordreset-email-content": "A password reset was requested for this email, go to this link to change your password: {{frontLink}}",
+  "login-success-passwordreset-email": "Password reset link sent to email",
+  "login-error-passwordreset-id": "There is no user with the provided id.",
+  "login-error-passwordreset-token": "Incorrect password reset token for the provided user.",
+  "login-error-passwordreset-password": "Password reset error. Value `password` is required.",
+  "login-success-passwordreset": "Password changed successfully!"
+}

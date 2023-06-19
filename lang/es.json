@@ -1,0 +1,43 @@
+{
+  "error-unknownendpoint": "Ruta no encontrada",
+  "error-unknownresource": "Recurso no encontrado",
+  "error-malformattedid": "ID mal formateada",
+  "error-jsonwebtoken-unlogged": "Permiso denegado. No tienes sesión iniciada.",
+  "error-jsonwebtoken-session": "Hay un problema con tu token de sesión. {{message}}",
+  
+  "blogs-error-form-title-required": "El título del blog es necesario.",
+  "blogs-error-form-content-required": "El contenido del blog es necesario.",
+  "blogs-error-permission-create": "Permiso denegado. Solo los autores y administradores pueden crear nuevos blogs.",
+  "blogs-error-author-action-edit": "Permiso denegado. Solo el autor o un administrador puede editar el blog seleccionado.",
+  "blogs-error-author-action-delete": "Permiso denegado. Solo el autor o un administrador puede eliminar el blog seleccionado.",
+  "blogs-error-comment-delete": "Permiso denegado. Solo un administrador puede eliminar el comentario del blog seleccionado.",
+
+  "comments-error-form-comment-required": "El contenido de texto del comentario es necesario.",
+
+  "users-error-list": "Permiso denegado. Solo los administradores pueden ver la lista de usuarios.",
+  "users-error-form-username-unique": "El nombre de usuario introducido ya está siendo utilizado. Por favor, introduce uno nuevo.",
+  "users-error-form-username-required": "El nombre de usuario es necesario.",
+  "users-error-form-username-minlength": "El nombre de usuario ha de tener una longitud mínima de {{minlength}} caracteres.",
+  "users-error-form-name-required": "El nombre es necesario.",
+  "users-error-form-password-required": "La contraseña es necesaria.",
+  "users-error-form-password-minlength": "La contraseña debe tener una longitud mínima de {{minlength}} caracteres.",
+  "users-error-form-email-required": "El email es necesario.",
+  "users-error-form-email-valid": "El email proporcionado no tiene un formato válido.",
+  "users-create-email-subject": "Bienvenido a Bitácora Futura, {{username}}",
+  "users-create-email-content": "¡Hola, {{username}}! Bienvenido a Bitacora Futura, gracias por crear una nueva cuenta, ahora puedes comentar en los blogs.",
+  "users-error-edit": "Permiso denegado. Solo puedes modificar tu propio usuario.",
+  "users-error-role": "Permiso denegado. No tienes el rol necesario.",
+  "users-error-edit-role": "Permiso denegado. Solo puedes modificar usuarios de roles inferiores.",
+  "users-error-delete-superadmin": "Permiso denegado. No puedes eliminar a un superadministrador.",
+  "users-error-delete-user": "Permiso denegado. Solo el mismo usuario o un administrador puede eliminar al usuario seleccionado.",
+
+  "login-error-authentication": "Nombre de usuario o contraseña inválidos.",
+  "login-error-email": "No existe usuario registrado con el email proporcionado.",
+  "login-passwordreset-email-subject": "Reseteo de contraseña de Bitacora Futura",
+  "login-passwordreset-email-content": "Un reseteo de contraseña ha sido solicitado para este email, accede a este link para cambiar tu contraseña: {{frontLink}}",
+  "login-success-passwordreset-email": "Link de reseteo de contraseña enviado al email",
+  "login-error-passwordreset-id": "No existe usuario con el id proporcionado.",
+  "login-error-passwordreset-token": "Token de reseteo de contraseña incorrecto para el usuario proporcionado.",
+  "login-error-passwordreset-password": "Error de reseteo de contraseña. El valor `contraseña` es necesario.",
+  "login-success-passwordreset": "¡Contraseña cambiada correctamente!"
+}
